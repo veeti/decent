@@ -1,0 +1,13 @@
+include README.rst
+include LICENSE
+include tox.ini
+include .coveragerc
+
+recursive-include decent *
+recursive-exclude decent *.pyc
+recursive-exclude decent *.pyo
+
+recursive-include docs *
+recursive-exclude docs *.pyc
+recursive-exclude docs *.pyo
+prune docs/_build
